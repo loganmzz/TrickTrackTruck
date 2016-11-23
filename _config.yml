@@ -1,0 +1,14 @@
+highlighter: rouge
+safe: true
+lsi: false
+exclude: ["docker", "README.md"]
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+        path: "" # All
+        type: "pages"
+    values:
+        layout: "default"
